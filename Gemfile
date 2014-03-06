@@ -12,6 +12,7 @@ gem 'haml-rails'
 gem 'decent_exposure'
 gem 'devise'
 gem 'foundation-rails'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
