@@ -21,6 +21,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'quiet_assets'
   gem 'better_errors'
+  gem 'factory_girl_rails'
 end
 
 group :doc do
