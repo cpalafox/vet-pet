@@ -3,4 +3,6 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, and :omniauthable
   devise :database_authenticatable, :registerable,
          :rememberable, :validatable, :timeoutable
+
+  validates_presence_of :first_name, :last_name, :title, :phone_number
 end
