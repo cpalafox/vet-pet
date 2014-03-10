@@ -17,3 +17,5 @@
 
 /config/database.yml
 .rspec
+zeus.json
+custom_plan.rb
